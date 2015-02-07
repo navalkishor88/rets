@@ -6,7 +6,7 @@ $rets_password = 'rets_dbwg2000151';
 $rets_modtimestamp_field = "LIST_87";
 $previous_start_time = "1980-01-01T00:00:00";
 //////////////////////////////
-require_once("rets.php");
+require_once("rets_include.php");
 // start rets connection
 $rets = new phRETS;
 // only enable this if you know the server supports the optional RETS feature called 'Offset'
